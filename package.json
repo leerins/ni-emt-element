@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Vue project.",
   "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
   "repository": "https://github.com/leerins/ni-emt-element.git",
   "author": "杨益美 <wsmis@vip.qq.com>",
   "license": "MIT",
@@ -28,5 +31,9 @@
   },
   "peerDependencies": {
     "vue": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.1.1"
   }
 }
